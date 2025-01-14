@@ -106,3 +106,10 @@ You can want to create a user for that. can be something like that:
 CREATE USER webhook WITH PASSWORD '123456';
 GRANT SELECT, UPDATE (merge_status,merge_error) ON TABLE merge_requests TO webhook;
 ```
+
+# Demo
+![1](./1.jpeg)
+
+![2](./2.jpeg)
+
+![3](./3.jpeg)
