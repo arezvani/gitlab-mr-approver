@@ -3,7 +3,7 @@ import json
 import logging
 
 
-APP_SECRET_KEY = 'D0ukrk87vh<]IgDYDowsyI]-jVLyX,&0'
+APP_SECRET_KEY = ""
 
 # Log
 LOG_LEVEL = {
@@ -17,14 +17,14 @@ LOG_FORMAT = {
 MASK_FIELDS = ['password']
 
 # Gitlab
-GITLAB_URL = os.environ.get("GITLAB_URL", "http://185.60.136.53")
-GITLAB_TOKEN = os.environ.get("GITLAB_TOKEN", "glpat-FbyDf7R5JezLx18Kx1s5")
+GITLAB_URL = os.environ.get("GITLAB_URL", "")
+GITLAB_TOKEN = os.environ.get("GITLAB_TOKEN", "")
 GITLAB_WEBHOOK_TOKEN = os.environ.get("GITLAB_WEBHOOK_TOKEN", "")
 
 # Database
 DB_USERNAME = os.environ.get('DB_USERNAME', 'postgres')
-DB_PASSWORD = os.environ.get('DB_PASSWORD', 'SAra%40131064')
-DB_HOST = os.environ.get('DB_HOST', '185.60.136.53')
+DB_PASSWORD = os.environ.get('DB_PASSWORD', '')
+DB_HOST = os.environ.get('DB_HOST', '')
 DB_PORT = os.environ.get('DB_PORT', 5432)
 DB_DATABASE = os.environ.get('DB_DATABASE', 'gitlabhq_production')
 DB_URI = f'postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{str(DB_PORT)}/{DB_DATABASE}'
