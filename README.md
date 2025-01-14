@@ -1,5 +1,5 @@
 # Gitlab MR Approver
-Gitlab MR Approver is a service that integrates with GitLab to enforce approval workflows for merge requests. It listens to GitLab webhook events, processes approval requirements, and updates the merge status accordingly. The system checks if the minimum number of approvals are met for a merge request to be merged and can be customized to suit project-specific requirements.
+Gitlab MR Approver is a service that integrates with GitLab to enforce approval workflows for merge requests. It listens to GitLab webhook events, processes approval requirements, and updates the merge status accordingly. The system checks if the minimum number of approvals are met for a merge request to be merged and can be customized to suit project-specific requirements. This tool was developed because this feature is not available in GitLab CE, whereas GitLab EE provides this capability.
 
 ## Features
 - Automatically enforces minimum approval rules for GitLab merge requests.
