@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "project_id": 2,
+            "approvals": [
+                "m.sabati",
+                "h.mohammadi",
+                "m.aghasi"
+            ],
+            "webhook_token": "SAra@131064",
+            "min_approv": 2
+        }
+    ]
+}
